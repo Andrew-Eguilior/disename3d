@@ -15,9 +15,9 @@ function searchProduct() {
     }
   }
 }
-
+/*
 function addToCart() {
   let producto = EventTarget.parentElement;
   carrito.push(producto);
   console.log(carrito);
-} 
+} */
