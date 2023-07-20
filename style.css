@@ -36,7 +36,7 @@ main {
 div{
 	font-size: 14px;
  	position:relative;
-	padding-left: 15%;
+	padding-left: 10%;
 	color: red;
 }
 
@@ -54,11 +54,12 @@ li {
 	box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.3);
 	border-radius: 5px;
 	overflow: hidden; /* */
-	width: 300px;
+	width: 400px;
+	height: auto;
 }
 
 
-li img {
+li  img {
 	position: relative;
 	padding-left: 15%;
 	width: 200px;
@@ -77,6 +78,19 @@ li h2 {
 li p {
 	margin: 10px;
 	font-size: 14px;
+}
+
+@media screen and (max-width: 540px){
+	div {
+		font-size: 12px;
+	}
+	li>h2 {
+		font-size: 14px;
+	}
+	li>p {
+		font-size: 10px;
+	}
+
 }
 
 li button {
