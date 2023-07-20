@@ -83,7 +83,7 @@ li p {
 		padding-left: 25%;
 	}
 	header div {
-		font-size: 16px;
+		font-size: 25px;
 	}
 	li h2 {
 		
@@ -99,7 +99,7 @@ li p {
 }
 
 @media screen and (min-width:600px){
-	div {
+	header div {
 		font-size: 14px;
 	}
 	li img {
