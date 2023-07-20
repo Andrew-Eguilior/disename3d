@@ -37,7 +37,7 @@ div{
 	font-size: 14px;
  	position:relative;
 	padding-left: 10%;
-	color: red;
+	color: rgb(255, 255, 255);
 }
 
 ul {
@@ -55,7 +55,6 @@ li {
 	border-radius: 5px;
 	overflow: hidden; /* */
 	width: 400px;
-	height: auto;
 }
 
 
@@ -83,6 +82,12 @@ li p {
 @media screen and (max-width: 540px){
 	div {
 		font-size: 12px;
+	}
+	li  img {
+		position: relative;
+		padding-left: 15%;
+		width: 300px;
+		height: 60%;
 	}
 	li>h2 {
 		font-size: 14px;
