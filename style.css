@@ -53,21 +53,20 @@ li {
 	box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.3);
 	border-radius: 5px;
 	overflow: hidden; /* */
-	width: 400px;
-	height: auto;
 }
 
 
 li  img {
-	position: static;
-	width: 200px;
+	position: relative;
 	height: 60%;
 
 }
 
 
 li h2 {
-	position:static;
+	position:relative;
+	padding-left: 25%;
+	padding-right: 25%;
 	margin: 10px;
 }
 
@@ -76,19 +75,22 @@ li p {
 }
 
 @media screen and (max-width:540px){
+	li {
+		width: 100%;
+		height: auto;
+	}
 	header {
 		padding: 2px;
 	}
 	li img {
-		padding-left: 25%;
+		width: 100%;
 	}
 	header div {
-		font-size: 25px;
+		font-size: 12px;
 	}
 	li h2 {
 		
 		font-size: 13px;
-		padding-left: 35%;
 	
 	}
 	li p {
@@ -99,14 +101,19 @@ li p {
 }
 
 @media screen and (min-width:600px){
+	li{
+		width: 25%;
+		height: auto;
+	}
 	header div {
-		font-size: 14px;
+		font-size: 14x;
 	}
 	li img {
-		padding-left: 25%;
+		padding-left: 4%;
+		width: 300px;
 	}
 	li h2 {
-		padding-left: 15%;	
+
 		font-size: 24px;
 	}
 	li p {
