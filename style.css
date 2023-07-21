@@ -106,11 +106,10 @@ li p {
 		height: auto;
 	}
 	header div {
-		font-size: 14x;
+		font-size: 14px;
 	}
 	li img {
-		padding-left: 4%;
-		width: 300px;
+		width: auto;
 	}
 	li h2 {
 
